@@ -6,7 +6,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #2a363b;
+  background-color: black;
   overflow-x: hidden;
 }
 
@@ -22,7 +22,6 @@ h2 {
   font-family: Bronson-Black;
   font-size: 1.7vw;
   color: white;
-
 }
 
 .logoimg {
@@ -176,6 +175,11 @@ h2 {
   cursor: pointer;
   margin-right: 1vw;
   transform: translateY(-50%);
+}
+
+.button-text {
+  display: inline-block;
+  margin-left: 1vw;
 }
 
 .oval-button:last-child {
@@ -364,7 +368,9 @@ h2 {
 .containerT1,
 .containerT2,
 .containerT3,
-.containerT4 {
+.containerT4,
+.containerT8,
+.containerT9 {
   display: flex;
   width: 31vw;
   justify-content: center;
@@ -375,6 +381,12 @@ h2 {
   padding-left: 2vw;
   margin-left: 9.5vw;
   /* Añadimos un padding izquierdo de 2vw */
+}
+
+.containerT8 {
+  margin-top: 12vw;
+  margin-left: -.9vw;
+  margin-bottom: -20vw;
 }
 
 .containerT2,
@@ -390,6 +402,13 @@ h2 {
   transform: translateY(-70%);
 }
 
+@media screen and (min-width: 800px) {
+  .containerT8 {
+    margin-left: -20vw;
+    /* Cambiar el ancho a 60vw para pantallas más pequeñas */
+  }
+}
+
 /* Media query para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
   .containerT1,
@@ -397,6 +416,13 @@ h2 {
   .containerT3,
   .containerT4 {
     width: 60vw;
+    /* Cambiar el ancho a 60vw para pantallas más pequeñas */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containerT2 {
+    margin-bottom: -30vw;
     /* Cambiar el ancho a 60vw para pantallas más pequeñas */
   }
 }
@@ -410,6 +436,7 @@ h2 {
   font-family: CascadiaCode;
   src: url("/assets/fonts/CascadiaCode.ttf") format("truetype");
 }
+
 
 .textbox1,
 .textbox2,
@@ -440,6 +467,28 @@ h2 {
   background-color: black;
 }
 
+.textbox5,
+.textbox6 {
+  background-color: #bcf534;
+  padding: 0.5vw;
+  font-family: Bronson-Black;
+  font-size: 2vw;
+  color: white;
+  margin: 0;
+  line-height: 0;
+  text-align: center;
+  margin-top: 13vw;
+  border-radius: 10px;
+  border: 0.7vw solid rgb(137, 230, 141);
+}
+
+.textbox6 {
+  margin-top: -30vw;
+  margin-left: -10vw;
+  margin-bottom: -30vw;
+  width: 29.3vw;
+}
+
 .containerp1,
 .containerp2 {
   display: flex;
@@ -457,6 +506,12 @@ h2 {
 }
 
 .containerhh {
+  border: 0.2vw solid black;
+  border-radius: 10px;
+}
+
+.containerhh1 {
+  margin-top: -5vw;
   border: 0.2vw solid black;
   border-radius: 10px;
 }
@@ -538,6 +593,20 @@ h2 {
   justify-content: space-between;
   margin-top: 12vw;
   margin-bottom: 10vw;
+}
+
+.container-images2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 12vw;
+  margin-bottom: 10vw;
+}
+
+.container-images2 iframe {
+  width: 30vw;
+  height: 44vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .container-images img {
