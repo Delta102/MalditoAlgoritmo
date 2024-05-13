@@ -370,7 +370,8 @@ h2 {
 .containerT3,
 .containerT4,
 .containerT8,
-.containerT9 {
+.containerT9,
+.containerT10 {
   display: flex;
   width: 31vw;
   justify-content: center;
@@ -387,6 +388,11 @@ h2 {
   margin-top: 12vw;
   margin-left: -.9vw;
   margin-bottom: -20vw;
+}
+
+.containerT10 {
+  margin-top: 11vw;
+  margin-left: 20vw;
 }
 
 .containerT2,
@@ -468,8 +474,9 @@ h2 {
 }
 
 .textbox5,
-.textbox6 {
-  background-color: #bcf534;
+.textbox6,
+.textbox7,
+.textbox8 {
   padding: 0.5vw;
   font-family: Bronson-Black;
   font-size: 2vw;
@@ -482,11 +489,30 @@ h2 {
   border: 0.7vw solid rgb(137, 230, 141);
 }
 
+.textbox5 {
+  background-color: #bcf534;
+}
+
 .textbox6 {
+  background-color: #bcf534;
   margin-top: -30vw;
   margin-left: -10vw;
   margin-bottom: -30vw;
   width: 29.3vw;
+}
+
+.textbox7 {
+  margin-top: -5vw;
+  margin-bottom: -5vw;
+  background-color: #ff007a;
+  border: 0.7vw solid rgb(210, 95, 214);
+}
+
+.textbox8 {
+  margin-top: -5vw;
+  margin-bottom: -5vw;
+  background-color: #023e74;
+  border: 0.7vw solid rgb(25, 45, 160);
 }
 
 .containerp1,
