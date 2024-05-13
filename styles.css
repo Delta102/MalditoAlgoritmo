@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   font-family: Bronson-Black;
   font-size: 1.7vw;
   color: white;
@@ -544,6 +545,19 @@ h2 {
 
 .containerhh1 {
   margin-top: -5vw;
+  border: 0.2vw solid black;
+  border-radius: 10px;
+}
+
+.containerhh2 {
+  align-items: center;
+  text-align: justify;
+  margin-top: -5vw;
+  padding-top: 12.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 31.5vw;
+  width: 20vw;
   border: 0.2vw solid black;
   border-radius: 10px;
 }
