@@ -1046,11 +1046,15 @@ h2 {
   border: 0.25vw solid black;
   border-radius: 10px;
   background-color: #f0369c;
-  padding-bottom: 1vw;
-  overflow: hidden;
+  overflow: auto;
   margin-left: 19vw;
   margin-top: 2vw;
   font-family: CascadiaCode;
+}
+
+.textocuadro {
+  margin-top: 1vw;
+  margin-bottom: 0;
 }
 
 .textocuadro b{
