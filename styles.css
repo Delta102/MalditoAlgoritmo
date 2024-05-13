@@ -95,7 +95,7 @@ h2 {
 
 .icons i {
   margin-right: 40px;
-  font-size: 4vw;
+  font-size: 3.5vw;
   color: #ffffff;
 }
 
@@ -394,12 +394,12 @@ h2 {
 
 .containerT10 {
   margin-top: 11vw;
-  margin-left: 20vw;
+  margin-left: 33vw;
 }
 
 .containerT11 {
   margin-top: -8vw;
-  margin-left: 20vw;
+  margin-left: 33vw;
 }
 
 .containerT2,
@@ -503,21 +503,18 @@ h2 {
 .textbox6 {
   background-color: #bcf534;
   margin-top: -30vw;
-  margin-left: -10vw;
   margin-bottom: -30vw;
   width: 29.3vw;
 }
 
 .textbox7 {
   margin-top: -5vw;
-  margin-bottom: -5vw;
   background-color: #ff007a;
   border: 0.7vw solid rgb(210, 95, 214);
 }
 
 .textbox8 {
-  margin-top: -5vw;
-  margin-bottom: -5vw;
+  margin-top: -2vw;
   background-color: #023e74;
   border: 0.7vw solid rgb(25, 45, 160);
 }
@@ -974,8 +971,8 @@ h2 {
 
 .icon i {
   margin: 20vw;
-  width: 20vw;
-  height: 20vw;
+  width: 17vw;
+  height: 17vw;
 }
 
 .image-column img:last-child {
@@ -1041,4 +1038,40 @@ h2 {
 .textcolumn2 {
   margin-top: 0vw;
   height: 3.5vw;
+}
+
+.cuadrotxt, .cuadrotxt2 {
+  width: 65vw;
+  height: 18vw;
+  border: 0.25vw solid black;
+  border-radius: 10px;
+  background-color: #f0369c;
+  padding-bottom: 1vw;
+  overflow: hidden;
+  margin-left: 19vw;
+  margin-top: 2vw;
+  font-family: CascadiaCode;
+}
+.textocuadro b{
+  font-size: 1.6vw;  
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+
+}
+.textocuadro1 {
+  font-size: 1.5vw;
+  color: white;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+.textocuadro2 {
+  font-size: 1.5vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  text-align: justify;
+}
+.cuadrotxt2 {
+  margin-top: -.2vw;
+  background-color: #023e74;
+  color: white;
 }
