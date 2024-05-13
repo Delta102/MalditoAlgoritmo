@@ -18,6 +18,13 @@ h1 {
   margin-left: 2vw;
 }
 
+h2 {
+  font-family: Bronson-Black;
+  font-size: 1.7vw;
+  color: white;
+
+}
+
 .logoimg {
   background-color: black;
   display: flex;
