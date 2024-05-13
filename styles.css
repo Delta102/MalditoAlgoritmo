@@ -186,12 +186,24 @@ h2 {
   background-color: #053d71;
 }
 
+.blue:hover {
+  background-color: #101255;
+}
+
 .violet {
   background-color: #9156c0;
 }
 
+.violet:hover {
+  background-color: #491055;
+}
+
 .orange {
   background-color: #ffa904;
+}
+
+.orange:hover {
+  background-color: #c99609;
 }
 
 .green {
@@ -206,12 +218,14 @@ h2 {
   background-color: #a7b9a6;
 }
 
+
+
 .pink {
   background-color: #fc017a;
 }
 
 .pink:hover {
-  background-color: #ffa29c;
+  background-color: #aa098f;
 }
 
 .red {
